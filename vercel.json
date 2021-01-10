@@ -1,9 +1,0 @@
-{
-  "builds": [
-    { "src": "/public/(.*)", "dest": "/$1" },
-    { "src": "start.js", "use": "@now/node-server" }
-  ],
-  "routes": [
-    { "src": "/.*", "dest": "start.js" }
-  ]
-}
